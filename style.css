@@ -1,0 +1,29 @@
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#container{
+    display:flex;
+    margin:200px 20px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+p{
+    background: rgba(0,0,0,.2);
+    border-top: 2px solid pink;
+    border-bottom: 2px solid pink;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 2em;
+
+    font-size: 3em;
+    
+    color:rgb(247, 244, 245);
+
+}
+.btn-primary{
+    border-radius: 10px;
+    font-family: 'Helvetica Neue'
+}
